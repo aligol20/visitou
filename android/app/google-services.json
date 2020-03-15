@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "436987197645",
+    "firebase_url": "https://visitou-2d002.firebaseio.com",
+    "project_id": "visitou-2d002",
+    "storage_bucket": "visitou-2d002.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436987197645:android:e4641eb227759ee2",
+        "android_client_info": {
+          "package_name": "com.visitou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436987197645-fka252p1d3rp8tbb9mraeuga1vb3jb3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.visitou",
+            "certificate_hash": "81515b26c2798c37218c777561c1716d77a79fc6"
+          }
+        },
+        {
+          "client_id": "436987197645-96r9qpnpgavt91qejlei765d6s9jue5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQomW7vnAK9zeOG8JP8U2-29LdIrj-bfM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436987197645-96r9qpnpgavt91qejlei765d6s9jue5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

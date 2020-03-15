@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>visitou.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>D2D66247AF29B141CD090958EA9017E2A5E89466</string>
+				<key>dateExpires</key>
+				<string>4/23/19</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>K3SS93GZAC.ir.koalasolutiongroup.visitou</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>K3SS93GZAC</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>visitou.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>c7dce716-7111-4729-82b3-5f4a193a86b0</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: ir.koalasolutiongroup.visitou</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>K3SS93GZAC</string>
+				<key>name</key>
+				<string>Hamed  Tavaghohamedani</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
