@@ -995,10 +995,6 @@ base64-js@1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.1.2.tgz#d6400cac1c4c660976d90d07a04351d89395f5e8"
 
-base64-js@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.2.0.tgz#a39992d723584811982be5e290bb6a53d86700f1"
-
 base64-js@^1.1.2:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.2.1.tgz#a91947da1f4a516ea38e5b4ec0ec3773675e0886"
@@ -2111,10 +2107,6 @@ fast-json-stable-stringify@^2.0.0:
 fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
-
-fast-plist@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/fast-plist/-/fast-plist-0.1.2.tgz#a45aff345196006d406ca6cdcd05f69051ef35b8"
 
 fb-watchman@^2.0.0:
   version "2.0.0"
@@ -4242,8 +4234,8 @@ npm-run-path@^2.0.0:
     path-key "^2.0.0"
 
 npm-user-validate@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/npm-user-validate/-/npm-user-validate-1.0.0.tgz#8ceca0f5cea04d4e93519ef72d0557a75122e951"
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/npm-user-validate/-/npm-user-validate-1.0.1.tgz#31428fc5475fe8416023f178c0ab47935ad8c561"
 
 npm@^5.6.0:
   version "5.6.0"
@@ -4701,14 +4693,6 @@ plist@^1.2.0:
     xmlbuilder "4.0.0"
     xmldom "0.1.x"
 
-plist@^2.0.1:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/plist/-/plist-2.1.0.tgz#57ccdb7a0821df21831217a3cad54e3e146a1025"
-  dependencies:
-    base64-js "1.2.0"
-    xmlbuilder "8.2.2"
-    xmldom "0.1.x"
-
 pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
@@ -4953,14 +4937,6 @@ react-native-app-intro-slider@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/react-native-app-intro-slider/-/react-native-app-intro-slider-0.2.2.tgz#6053ae17a841491e7a35ce4babbbf9752c47b399"
 
-react-native-background-fetch@^2.0.8:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/react-native-background-fetch/-/react-native-background-fetch-2.3.0.tgz#aa99f8f635999dc3cae1080d323222688c075991"
-  dependencies:
-    fast-plist "^0.1.2"
-    plist "^2.0.1"
-    xcode "^0.9.1"
-
 react-native-background-task@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/react-native-background-task/-/react-native-background-task-0.2.1.tgz#9d110ed14b245e0d8b9ec8114ce24b33ddda65de"
@@ -5028,9 +5004,9 @@ react-native-fast-image@^2.0.1:
   dependencies:
     prop-types "^15.5.10"
 
-react-native-fcm@^13.3.1:
-  version "13.3.1"
-  resolved "https://registry.yarnpkg.com/react-native-fcm/-/react-native-fcm-13.3.1.tgz#cb5798daff2ad8f3e5803dc257960e0d9c3d425f"
+react-native-fcm@^13.3.3:
+  version "13.3.3"
+  resolved "https://registry.yarnpkg.com/react-native-fcm/-/react-native-fcm-13.3.3.tgz#6380d3aec6eb748c36a58355fa68eb0774dc81f8"
 
 react-native-fetch-blob@^0.10.8:
   version "0.10.8"
@@ -5163,10 +5139,6 @@ react-native-simple-toast@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/react-native-simple-toast/-/react-native-simple-toast-0.0.7.tgz#2ef51bdafd3e98df718f74fdd0bc0ce08608dff8"
 
-react-native-splash-screen@^3.0.6:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/react-native-splash-screen/-/react-native-splash-screen-3.0.6.tgz#c0bbf2c8ae40a313c4c7044f55e569414ff68332"
-
 react-native-star-rating-view@0.0.11:
   version "0.0.11"
   resolved "https://registry.yarnpkg.com/react-native-star-rating-view/-/react-native-star-rating-view-0.0.11.tgz#c6f8de3a9362d9e6d22f743a6c0b03b3b9923612"
@@ -5202,6 +5174,12 @@ react-native-vector-icons@^4.4.3, react-native-vector-icons@~4.4.2:
     lodash "^4.0.0"
     prop-types "^15.5.10"
     yargs "^8.0.2"
+
+react-native-whc-banner@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-whc-banner/-/react-native-whc-banner-1.0.1.tgz#b78b43d44e8ee61a3e3c746386f9bc86bcbcc7f9"
+  dependencies:
+    prop-types "^15.5.10"
 
 react-native@0.51.0:
   version "0.51.0"
